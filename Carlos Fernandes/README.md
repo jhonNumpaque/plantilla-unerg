@@ -1,1 +1,1 @@
-Este es el readme del proyecto, aqui podras dejar tus comentarios
+Aqui subire la plantilla como creo que deba estar.
