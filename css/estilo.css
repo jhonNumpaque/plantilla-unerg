@@ -1,0 +1,57 @@
+body{
+	background: #cca;
+	font-family: helvetica;
+}
+
+.contenedor{
+	min-width: 600px;
+	background: #eee;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.baner{
+	background: #aaa;
+	height: 90px;
+	padding: 20px;
+}
+.nav{
+	background: #000;
+	color: #fff;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	padding: 15px;
+}
+
+.nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size:17px;
+	font-weight: bold;
+}
+
+.nav ul li:hover{
+	background: #333;
+	transition:all 1s;
+}
+
+.cuerpo{
+	background: #fff;
+	min-height: 300px;
+	padding: 20px;
+}
+
+.footer{
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
