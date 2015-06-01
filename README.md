@@ -5,3 +5,5 @@
 Recordatorio:
 
 - Menos lineas de codigo mucho mejor, sobre todo en la parte del CSS.
+- Los Desplegables estan sencillos, porque se supone hay que escribir lo menos posible, pero si tiene algo mejor.
+
