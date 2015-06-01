@@ -1,57 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
-	background: #cca;
+	background: #eeeeee;
 	font-family: helvetica;
 }
-
 .contenedor{
-	min-width: 600px;
+	max-width: 90%;
+	min-width: 50%;
 	background: #eee;
 	margin: 0 auto;
 	padding: 20px;
 }
-
 .baner{
-	background: #aaa;
+	background: #040611;
 	height: 90px;
 	padding: 20px;
 }
 .nav{
-	background: #000;
+	background: #09283B;
 	color: #fff;
-}
-
-.nav ul li {
-	display: inline-block;
-	margin: 0;
-	text-align: center;
-	padding: 15px;
+	height: 50px;
+	max-height: 50px;
 }
 
 .nav ul{
-	margin: 0;
-	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.nav ul li{
+	float: left;
+}
+
+.titulo1, .titulo2, .titulo3{
+	display: block;
+	padding: 1px;
+	padding-top: 20px;
+	font-weight: bold;
+	font-family: helvetica;
+	text-shadow:2px 2px 2px black;
 }
 
 .nav ul li a{
+	display: block;
+	padding: 16px;
 	text-decoration: none;
-	color: #fff;
 	font-size:17px;
+	color: #CCC;
 	font-weight: bold;
+	border-bottom: 8px transparent;	
 }
 
-.nav ul li:hover{
-	background: #333;
-	transition:all 1s;
+#SubMenu{
+	height: 170px;
+	background-color: #09283B;
+	display: none;
+	border-top:4px solid #5B969C;
 }
 
+.nav ul li a:hover{
+	color: #fff;
+	text-shadow:2px 2px 2px black;
+    border-top: 4px solid #5B969C;
+	transition:all .4s ease;
+}
 .cuerpo{
 	background: #fff;
 	min-height: 300px;
 	padding: 20px;
 }
-
 .footer{
-	background: #000;
+	background: #040611;
 	color: #fff;
 	padding: 20px;
+}
+.titulo1{
+	-webkit-animation-name:vuelta;
+	-webkit-animation-duration:2s;
+	animation-name:vuelta;
+	animation-duration:2s;	
+	color: yellow;
+	font-style: italic;
+	padding-top:5px;
+	
+}
+.titulo2{
+	-webkit-animation-name:vuelta;
+	-webkit-animation-duration:4s;
+	animation-name:vuelta;
+	animation-duration:4s;
+	color: blue;
+	font-style: italic;
+	padding-top:15px;
+}
+.titulo3{
+	-webkit-animation-name:vuelta;
+	-webkit-animation-duration:6s;
+	animation-name:vuelta;
+	animation-duration:6s;
+	color: red ;
+	font-style: italic;
+	padding-top:20px;
+}
+
+@keyframes vuelta{
+0%{
+		transform:rotate(-180deg);
+		transform:skew(180deg,180deg);
+	}
+}
+@-webkit-keyframes vuelta{
+	0%{
+		-webkit-transform:rotate(-180deg);
+		-webkit-transform:skew(180deg,180deg);
+		
+	}
 }
